@@ -1,4 +1,5 @@
 
+
 # Pocket Option - Ferramenta de Análise
 
 Requisitos:
@@ -12,12 +13,12 @@ Passos para utilização:
 4. Gere as tabelas no banco de dados usando o comando 'php artisan migrate --force'.
 5. Insira os ativos com os quais deseja operar no banco de dados. Por exemplo:
 
-Exemplo
 ```
 INSERT INTO `ativo` (`id`, `tipo`, `nome`, `created_at`, `updated_at`) VALUES
 (1, 'FX', 'GBPJPY', NULL, NULL),
 (2, 'FX', 'AUDUSD', NULL, NULL),
-(3, 'FX', 'CADCHF', NULL, NULL);
+...
+(42, 'FX', 'CADCHF', NULL, NULL);
 ```
 
 6. Execute a aplicação usando o comando 'php artisan serve'.
@@ -26,3 +27,4 @@ INSERT INTO `ativo` (`id`, `tipo`, `nome`, `created_at`, `updated_at`) VALUES
 Observação: Este projeto é distribuído como código aberto. Caso deseje contribuir com o desenvolvimento, você pode fazer uma doação através da chave PIX ranieu.sousa.9@gmail.com.
 
 Espero que essas informações sejam úteis para você!
+![Descrição da imagem](https://raw.githubusercontent.com/RanieuSousa/pocketoption/main/Sem%20t%C3%ADtulo.png)
